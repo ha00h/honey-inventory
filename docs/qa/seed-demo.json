@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "exportedAt": "2026-07-10T12:00:00.000",
+  "settings": {
+    "notificationsEnabled": true,
+    "notificationHour": 9,
+    "notificationMinute": 0,
+    "hiveSortOrder": "lowStock",
+    "hasSeenOnboarding": true,
+    "snoozedUntilByProductId": {},
+    "dismissedReminderProductIds": [],
+    "themeMode": "light"
+  },
+  "products": [
+    {
+      "id": "p_milk",
+      "name": "우유",
+      "category": "food",
+      "unit": "팩",
+      "currentStock": 2,
+      "maxStock": 6,
+      "minStock": 3,
+      "iconKey": "water",
+      "isActive": true,
+      "createdAt": "2026-07-01T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    },
+    {
+      "id": "p_tissue",
+      "name": "티슈",
+      "category": "hygiene",
+      "unit": "롤",
+      "currentStock": 1,
+      "maxStock": 10,
+      "minStock": 2,
+      "iconKey": "tissue",
+      "isActive": true,
+      "createdAt": "2026-06-01T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    },
+    {
+      "id": "p_wet_tissue",
+      "name": "물티슈",
+      "category": "hygiene",
+      "unit": "팩",
+      "currentStock": 4,
+      "maxStock": 8,
+      "minStock": 2,
+      "iconKey": "tissue",
+      "isActive": true,
+      "createdAt": "2026-06-15T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    },
+    {
+      "id": "p_water",
+      "name": "생수",
+      "category": "food",
+      "unit": "병",
+      "currentStock": 6,
+      "maxStock": 12,
+      "minStock": 4,
+      "iconKey": "water",
+      "isActive": true,
+      "createdAt": "2026-06-01T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    },
+    {
+      "id": "p_a4",
+      "name": "A4 용지",
+      "category": "household",
+      "unit": "권",
+      "currentStock": 3,
+      "maxStock": 5,
+      "minStock": 1,
+      "iconKey": "basket",
+      "isActive": true,
+      "createdAt": "2026-05-01T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    },
+    {
+      "id": "p_cheese",
+      "name": "치즈",
+      "category": "food",
+      "unit": "팩",
+      "currentStock": 2,
+      "maxStock": 4,
+      "minStock": 1,
+      "iconKey": "kitchen",
+      "isActive": true,
+      "createdAt": "2026-06-01T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    },
+    {
+      "id": "p_soda",
+      "name": "탄산수",
+      "category": "food",
+      "unit": "병",
+      "currentStock": 1,
+      "maxStock": 6,
+      "minStock": 2,
+      "iconKey": "water",
+      "isActive": true,
+      "createdAt": "2026-07-01T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    },
+    {
+      "id": "p_scissors",
+      "name": "가위",
+      "category": "household",
+      "unit": "개",
+      "currentStock": 1,
+      "maxStock": 2,
+      "minStock": 1,
+      "iconKey": "basket",
+      "isActive": true,
+      "createdAt": "2026-06-01T09:00:00.000",
+      "updatedAt": "2026-07-10T09:00:00.000"
+    }
+  ],
+  "purchaseCycles": [
+    {
+      "id": "c_milk",
+      "productId": "p_milk",
+      "intervalDays": 7,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-07-03T00:00:00.000",
+      "nextReminderDate": "2026-07-10T00:00:00.000",
+      "isEnabled": true
+    },
+    {
+      "id": "c_tissue",
+      "productId": "p_tissue",
+      "intervalDays": 14,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-06-26T00:00:00.000",
+      "nextReminderDate": "2026-07-10T00:00:00.000",
+      "isEnabled": true
+    },
+    {
+      "id": "c_wet",
+      "productId": "p_wet_tissue",
+      "intervalDays": 7,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-07-09T00:00:00.000",
+      "nextReminderDate": "2026-07-16T00:00:00.000",
+      "isEnabled": true
+    },
+    {
+      "id": "c_water",
+      "productId": "p_water",
+      "intervalDays": 14,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-07-01T00:00:00.000",
+      "nextReminderDate": "2026-07-15T00:00:00.000",
+      "isEnabled": true
+    },
+    {
+      "id": "c_a4",
+      "productId": "p_a4",
+      "intervalDays": 60,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-07-08T00:00:00.000",
+      "nextReminderDate": "2026-09-06T00:00:00.000",
+      "isEnabled": true
+    },
+    {
+      "id": "c_cheese",
+      "productId": "p_cheese",
+      "intervalDays": 30,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-07-08T00:00:00.000",
+      "nextReminderDate": "2026-08-07T00:00:00.000",
+      "isEnabled": true
+    },
+    {
+      "id": "c_soda",
+      "productId": "p_soda",
+      "intervalDays": 5,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-07-05T00:00:00.000",
+      "nextReminderDate": "2026-07-10T00:00:00.000",
+      "isEnabled": true
+    },
+    {
+      "id": "c_scissors",
+      "productId": "p_scissors",
+      "intervalDays": 7,
+      "isAutoEstimated": false,
+      "lastPurchaseDate": "2026-07-03T00:00:00.000",
+      "nextReminderDate": "2026-07-10T00:00:00.000",
+      "isEnabled": true
+    }
+  ],
+  "stockHistories": [
+    {
+      "id": "h_milk_init",
+      "productId": "p_milk",
+      "delta": 2,
+      "stockAfter": 2,
+      "reason": "initial",
+      "createdAt": "2026-07-01T09:00:00.000"
+    },
+    {
+      "id": "h_tissue_init",
+      "productId": "p_tissue",
+      "delta": 1,
+      "stockAfter": 1,
+      "reason": "initial",
+      "createdAt": "2026-06-01T09:00:00.000"
+    }
+  ],
+  "purchaseRecords": [
+    {
+      "id": "r_milk",
+      "productId": "p_milk",
+      "quantity": 3,
+      "storeName": "이마트",
+      "note": null,
+      "source": "manual",
+      "purchasedAt": "2026-07-03T14:00:00.000"
+    },
+    {
+      "id": "r_tissue",
+      "productId": "p_tissue",
+      "quantity": 4,
+      "storeName": "코스트코",
+      "note": null,
+      "source": "manual",
+      "purchasedAt": "2026-06-26T11:00:00.000"
+    },
+    {
+      "id": "r_wet",
+      "productId": "p_wet_tissue",
+      "quantity": 2,
+      "storeName": "다이소",
+      "note": null,
+      "source": "manual",
+      "purchasedAt": "2026-07-09T18:00:00.000"
+    },
+    {
+      "id": "r_water",
+      "productId": "p_water",
+      "quantity": 6,
+      "storeName": "이마트",
+      "note": null,
+      "source": "manual",
+      "purchasedAt": "2026-07-01T10:00:00.000"
+    },
+    {
+      "id": "r_a4",
+      "productId": "p_a4",
+      "quantity": 1,
+      "storeName": "문구점",
+      "note": null,
+      "source": "manual",
+      "purchasedAt": "2026-07-08T15:00:00.000"
+    },
+    {
+      "id": "r_cheese",
+      "productId": "p_cheese",
+      "quantity": 2,
+      "storeName": "이마트",
+      "note": null,
+      "source": "manual",
+      "purchasedAt": "2026-07-08T12:00:00.000"
+    }
+  ],
+  "cartItems": [
+    {
+      "id": "cart_soda",
+      "productId": "p_soda",
+      "quantity": 2,
+      "preferredStoreName": "편의점",
+      "note": "짧은 주기",
+      "addedAt": "2026-07-10T08:00:00.000"
+    },
+    {
+      "id": "cart_scissors",
+      "productId": "p_scissors",
+      "quantity": 1,
+      "preferredStoreName": "다이소",
+      "note": null,
+      "addedAt": "2026-07-10T08:30:00.000"
+    }
+  ]
+}
